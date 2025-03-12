@@ -1,0 +1,22 @@
+@import url('./header.css');
+
+:root {
+    --principal-pink: #D658B3;
+    --principal-green: #45B442;
+    
+    --base-gray-700: #332B31;
+    --base-gray-600: #4A4448;
+    --base-gray-500: #756C71;
+    --base-gray-400: #D3CFD2;
+    --base-gray-300: #DFDCDF;
+    --base-gray-200: #E9E7E9;
+    --base-gray-100: #F4F1F2;
+    --base-white: #FFFFFF;
+
+    --gradiente: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
+
+}
+
+body{
+    background-color: #45B442;
+}

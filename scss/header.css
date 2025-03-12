@@ -1,0 +1,17 @@
+header {
+
+    display: flex;
+    flex-direction: column;
+    input {
+        border: none; 
+        outline: none;
+        width: 400px;
+        height: 56px;
+        border-radius: 15px;
+        padding: 1rem 0.5rem 0.5rem 0.5rem ;
+    }
+}
+
+body {
+    background-color: black;
+}

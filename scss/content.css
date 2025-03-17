@@ -3,6 +3,8 @@
     height: 5.625rem;
     display: flex;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
 
 }
 
@@ -23,4 +25,51 @@
 .infoAvatar-wrapp span {
     font: var(--title-sm);
     color: var(--base-gray-600);
+}
+
+.history-wrapp {
+    background-color: white;
+    border-radius: 15px;
+    width: 20rem;
+    height: 22.5rem;
+}
+
+.historyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 1.75rem 1.75rem 1.5rem;
+}
+.historyHeader span {
+    font: var(--subtitle-sm);
+    color: var(--base-gray-500);
+}
+
+.historyHeader p {
+    font: var(--text-xs);
+    color: var(--base-gray-500);
+}
+
+.liTitle span{
+    font: var(--subtitle-sm);
+    color: var(--base-gray-600);
+}
+
+.liTitle p {
+    font: var(--text-xs);
+    color: var(--base-gray-500);
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.historyList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1.75rem 1.75rem 1.5rem;
+    align-items: center;
 }

@@ -26,6 +26,8 @@
     --text-md: 400 1rem/1.4 var(--font-family);
     --text-sm: 400 0.875rem/1.4 var(--font-family);
     --text-xs: 400 0.75rem/1.4 var(--font-family);
+
+    background-color: var(--base-gray-100);
 }
 
 

@@ -1,6 +1,8 @@
 @import url('./header.css');
+@import url('./content.css');
 
-:root {
+:root{
+
     --principal-pink: #D658B3;
     --principal-green: #45B442;
     
@@ -15,8 +17,15 @@
 
     --gradiente: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
 
+
+    --font-family: "Oxygen", sans-serif;
+    --title-md: 600 1.5rem/1.4 var(--font-family);
+    --title-sm: 600 1.125rem/1.4 var(--font-family);
+    --subtitle-md: 600 0.875rem/1.4 var(--font-family);
+    --subtitle-sm: 600 0.75rem/1.4 var(--font-family);
+    --text-md: 400 1rem/1.4 var(--font-family);
+    --text-sm: 400 0.875rem/1.4 var(--font-family);
+    --text-xs: 400 0.75rem/1.4 var(--font-family);
 }
 
-body{
-    background-color: #45B442;
-}
+

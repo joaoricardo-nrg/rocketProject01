@@ -1,0 +1,26 @@
+.userAvatar {
+    width: 20rem;
+    height: 5.625rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.imgAvatar-wrapp {
+    margin: 1rem;
+}
+
+.infoAvatar-wrapp {
+    margin: 1rem;
+    gap: 0.25rem;
+}
+
+.infoAvatar-wrapp p {
+    font: var(--text-xs);
+    color: var(--base-gray-500);
+}
+
+.infoAvatar-wrapp span {
+    font: var(--title-sm);
+    color: var(--base-gray-600);
+}

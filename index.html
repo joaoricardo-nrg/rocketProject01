@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Member Club</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo-wrapper">
-            <img src="/assets/img/Logo.png" alt="Logo do Mermber Club">
+
+
+    <div class="logo-wrapper">
+        <img src="/assets/img/Logo.png" alt="Logo do Mermber Club">
+    </div>
+    <div class="input-wrapper">
+        <input type="text" name="idCartao" id="idCartao" placeholder="ID do cartão">
+        <a><img src="/assets/icons/inputButtonDisabled.svg" alt="Butão de envio do ID do cartão"></a>
+    </div>
+
+    <div class="content-wrapp">
+        <div class="firstColumContent">
+            <div class="userAvatar">
+                <div class="imgAvatar-wrapp">
+                    <img src="./assets/img/Avatar.png" alt="Imagem do Perfil">
+                </div>
+                <div class="infoAvatar-wrapp">
+                    <span id="nomeUsuario">Natália Miranda</span>
+                    <p>Cliente desde 18/09/2023</p>
+                </div>
+
+            </div>
+
+            <div class="history-wrapp">
+
+            </div>
         </div>
-        <div class="input-wrapper">
-            <input type="text" name="idCartao" id="idCartao" placeholder="ID do cartão">
-            <button><img src="/assets/icons/inputButtonDisabled.svg" alt="Butão de envio do ID do cartão"></button>
+        <div class="secondColumContent">
+            <div class="car-wrapp">
+
+            </div>
+
+            <div class="progress-content">
+
+            </div>
         </div>
-    </header>
+    </div>
+
 </body>
+
 </html>

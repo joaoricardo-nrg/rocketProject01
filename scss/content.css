@@ -1,3 +1,9 @@
+.content-wrapp {
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
 .userAvatar {
     width: 20rem;
     height: 5.625rem;
@@ -32,14 +38,17 @@
     border-radius: 15px;
     width: 20rem;
     height: 22.5rem;
+    margin-top: 1rem;
 }
 
 .historyHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem 1.75rem 1.75rem 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
+
 .historyHeader span {
     font: var(--subtitle-sm);
     color: var(--base-gray-500);
@@ -50,7 +59,7 @@
     color: var(--base-gray-500);
 }
 
-.liTitle span{
+.liTitle span {
     font: var(--subtitle-sm);
     color: var(--base-gray-600);
 }
@@ -61,8 +70,16 @@
     margin-top: 0;
 }
 
+.historyContent {
+    max-height: 18rem;
+    overflow-y: scroll;
+}
+
 ul {
-    margin: 0;
+    margin-left: 1.5rem;
+    width: 16.75rem;
+    border-top: 1px solid var(--base-gray-500);
+    margin-top: 0;
     padding: 0;
 }
 
@@ -70,6 +87,151 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 0rem 1.75rem 1.75rem 1.5rem;
     align-items: center;
+    margin-top: 0.75rem;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.card-header {
+    margin: 2rem 2.25rem;
+
+}
+
+.card-header span {
+    font: var(--subtitle-sm);
+    color: var(--base-gray-500);
+}
+
+.card-wrapp {
+    width: 35.5rem;
+    background-color: white;
+    border-radius: 15px;
+    height: 20.813rem;
+    margin-bottom: 1rem;
+}
+
+.card-header p {
+    margin-top: 0.25rem;
+    font: var(--text-xs);
+    color: var(--base-gray-500);
+}
+
+.idTag {
+    align-content: center;
+    width: 9.313rem;
+    height: 2rem;
+    font: var(--subtitle-md);
+    color: var(--base-gray-500);
+    border-radius: 15px;
+    background-color: var(--base-gray-300);
+}
+
+.idTag p {
+    margin: 0.75rem;
+}
+
+.idTag span {
+    margin: 0.75rem;
+}
+
+.slot {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 15px;
+    background-color: var(--base-gray-200);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-slots {
+    margin-top: 0;
+}
+
+.firstSlots {
+    margin: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.secondSlots {
+    margin: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.progress-wrapp {
+    display: flex;
+    width: 35.5rem;
+    height: 7.313rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.progress-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+.item {
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: var(--base-gray-200);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.progress-wcontent{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    display: flex;
+    width: 25rem;
+}
+.progress-wcontent p {
+    font: var(--text-md);
+    color: var(--base-gray-500);
+}
+.progress-wcontent span {
+    font: var(--title-md);
+    color: var(--base-gray-600);
+}
+.progress-content-bar{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.progress-defaultBar{
+    position: relative;
+    display: flex;
+    width: 22rem;
+    height: 0.5rem;
+    background-color: var(--base-gray-200);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.progress-content-bar p {
+    font: var(--text-xs);
+    color: var(--base-gray-500);
+}
+.progress-colorBar{
+    position: absolute;
+    width: 20%;
+    height: 0.5rem;
+    background: var(--gradiente);
+    border-radius: 2rem;
+    transition: width 0.5s ease-in-out;
 }

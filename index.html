@@ -17,7 +17,7 @@
     </div>
     <div class="input-wrapper">
         <input type="text" name="idCartao" id="idCartao" placeholder="ID do cartão">
-        <a><img src="/assets/icons/inputButtonDisabled.svg" alt="Butão de envio do ID do cartão"></a>
+        <a id="botaoEnvio"><img src="/assets/icons/inputButtonDisabled.svg" alt="Butão de envio do ID do cartão"></a>
     </div>
 
     <div class="content-wrapp">
@@ -28,7 +28,7 @@
                 </div>
                 <div class="infoAvatar-wrapp">
                     <span id="nomeUsuario">Natália Miranda</span>
-                    <p>Cliente desde 18/09/2023</p>
+                    <p id="clientSince">Cliente desde 18/09/2023</p>
                 </div>
 
             </div>
@@ -39,88 +39,7 @@
                     <p>x Cortes</p>
                 </div>
                 <div class="historyContent">
-                    <ul>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
-                        <li class="historyList">
-                            <div class="liTitle">
-                                <span>10/02/2025</span>
-                                <p>18:00</p>
-                            </div>
-                            <div class="liIcon">
-                                <img src="./assets/icons/sealCheckedGreen.svg" alt="">
-                            </div>
-                        </li>
+                    <ul id="listaAgendamentos">
                         <li class="historyList">
                             <div class="liTitle">
                                 <span>10/02/2025</span>
@@ -186,12 +105,12 @@
                 <div class="progress-content">
                     <div class="progress-wcontent">
                         <div class="progress-content-title">
-                            <p> <span>3 </span>cortes restantes</p>
+                            <p> <span id="cutsRemaining"> </span>cortes restantes</p>
                         </div>
                             <div class="progress-content-bar">
                                 <div class="progress-defaultBar"></div>
                                 <div class="progress-colorBar" id="progressBar"></div>
-                                <p>7 de 10</p>
+                                <p id="totalCuts"></p>
                             </div>
                         
                     </div>
